@@ -1,5 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import CSV from './csv';
+
+fetch("/agl.csv").then(response => {
+  response.text().then((data) => {
+    console.log(CSV.parse(data));
+  });
+});
 </script>
 
 <template>
