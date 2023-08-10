@@ -1,16 +1,11 @@
 export function csvParse(text) {
-    let [fields, ...rows] = text.split("\n");
-    fields = fields.split(",");
-    fields.forEach((field, index) => fields[index] = field.trim());
+    let [fields, ...rows] = text.split("\n").filter(row => row.length > 0);
+    fields = fields.split(",").map(field => field.trim());
 
     return rows.map(row => {
-        row = row.split(",");
         let item = {};
-
-        for (let i = 0; i < fields.length; i++) {
-            item[fields[i]] = row[i];
-        }
-
+        row = row.split(",");
+        fields.forEach((field, i) => item[field] = row[i]);
         return item;
     });
 }
