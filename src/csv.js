@@ -14,7 +14,13 @@ export function csvParse(text) {
  * @param {Array} data 
  */
 export function csvMake(data) {
-    
+    let csv = data[0]?.keys().join(",").concat("\n");
+
+    data.forEach(item => {
+        csv.concat(item.values().join(","), "\n");
+    })
+
+    return csv;
 }
 
 const CSV = {
