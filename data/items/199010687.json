@@ -1,0 +1,21 @@
+{
+    "id": 199010687,
+    "title": "נורת הלוגן 30W מסוג T10",
+    "subtitle": null,
+    "technology": "halogen",
+    "image": "./images/items/t10.png",
+    "compliances": [],
+    "purposeIcons": [],
+    "purpose": [],
+    "techSpecs": [
+        ["הספק חשמלי", "30W"],
+        ["זרם עבודה", "6.6A"],
+        ["אורך חיים", "1000 שעות"],
+        ["סוג", "הלוגן"],
+        ["חיבור", "הברגה T10"]
+    ],
+    "products": [
+        "t10-30w"
+    ],
+    "parts": []
+}

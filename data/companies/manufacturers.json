@@ -1,0 +1,74 @@
+[
+    {
+        "id": "alc",
+        "name": "Airport Lighting Company",
+        "location": "USA",
+        "logo": "alc.svg"
+    },
+    {
+        "id": "adb",
+        "name": "ADB Safegate",
+        "location": "USA",
+        "logo": "adb.png"
+    },
+    {
+        "id": "agm",
+        "name": "AGM",
+        "location": "USA",
+        "logo": "agm.png"
+    },
+    {
+        "id": "atg",
+        "name": "ATG Airports",
+        "location": "UK",
+        "logo": "atg.webp"
+    },
+    {
+        "id": "avlite",
+        "name": "Avlite",
+        "location": "Australia",
+        "logo": "avlite.jpg"
+    },
+    {
+        "id": "ch",
+        "name": "Crouse Hinds",
+        "location": "USA",
+        "logo": "cooper-crouse-hinds.png"
+    },
+    {
+        "id": "efla",
+        "name": "EFLA",
+        "location": "Iceland",
+        "logo": "Efla-logo.svg"
+    },
+    {
+        "id": "fl",
+        "name": "Flight Light Inc.",
+        "location": "USA",
+        "logo": "flight-light.png"
+    },
+    {
+        "id": "hp",
+        "name": "Hughey & Phillips",
+        "location": "USA",
+        "logo": "H&P-black-text.svg"
+    },
+    {
+        "id": "halibrite",
+        "name": "Halibrite",
+        "location": "USA",
+        "logo": "halibrite.png"
+    },
+    {
+        "id": "millerbernd",
+        "name": "Millerbernd",
+        "location": "USA",
+        "logo": "millerbernd-logo.png"
+    },
+    {
+        "id": "rhino",
+        "name": "Rhino",
+        "location": "USA",
+        "logo": "Rhino.jpg"
+    }
+]

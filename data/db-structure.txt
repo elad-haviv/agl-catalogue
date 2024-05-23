@@ -1,0 +1,69 @@
+companies:
+    id
+    slug
+    name
+    name_he ?
+    logo
+    country
+    address ?
+    website ?
+    email   ?
+    phone   ?
+
+contracts:
+    id
+    provider
+    creation
+    expiry
+
+items:
+    id
+    slug
+    title
+    subtitle
+    tags
+    image
+    purpose
+    notes
+
+items_compliance:
+    id
+    item_id
+    standard
+    document
+    specification
+
+specifications:
+    id
+    spec
+    values
+    units
+
+items_specifications
+    id
+    item_id
+    spec_id
+    spec_value
+
+products:
+    id
+    slug
+    name
+    catalog_no
+    contract
+    manufacturer
+    price
+    datasheet
+    manual
+    notes
+
+items_products:
+    id
+    item_id
+    product_id
+
+items_parts:
+    id
+    item_id
+    part_item_id
+

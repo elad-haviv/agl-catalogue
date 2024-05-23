@@ -1,0 +1,16 @@
+{
+    "id": 199010695,
+    "title": "נורת הלוגן 45W מסוג T10",
+    "subtitle": null,
+    "status": "available",
+    "technology": "halogen",
+    "image": "./images/items/t10.png",
+    "compliances": [],
+    "purposeIcons": ["./images/icons/edge.svg"],
+    "purpose": [],
+    "techSpecs": [],
+    "products": [
+        "7654C-2020"
+    ],
+    "parts": []
+}
